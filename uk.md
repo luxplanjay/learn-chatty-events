@@ -22,6 +22,8 @@
 - **Лаги** під час взаємодії з інтерфейсом
 - Втрата кадрів (drop frames), особливо при `scroll` і `resize`
 
+<iframe src="https://stackblitz.com/edit/vitejs-vite-aeffy5sv?ctl=1&embed=1&file=src%2Fmain.js&hideNavigation=1"></iframe>
+
 ## Як зменшити частоту виклику обробників
 
 Щоб уникнути надмірної кількості викликів функції при роботі з chatty events, використовують техніки **throttle** та **debounce**.
