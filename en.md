@@ -4,7 +4,7 @@ In frontend development, we often need to handle events like window resizing (`r
 
 > **Chatty events** are events that fire too frequently, putting unnecessary strain on the browser and JavaScript execution thread.
 
-For example, a `scroll` handler can fire **30–60 times per second** during mouse scrolling. On mobile, slow swiping can trigger up to **100 events per second**.
+For example, a `scroll` handler can fire **30-60 times per second** during mouse scrolling. On mobile, slow swiping can trigger up to **100 events per second**.
 
 Now imagine your event handler is doing any of the following:
 
@@ -25,8 +25,6 @@ Common consequences of chatty events:
 **👇 Click the image to open the interactive StackBlitz example**
 [![Open example in StackBlitz](/assets/intro-embed-thumb.jpg)](https://stackblitz.com/edit/vitejs-vite-aeffy5sv?embed=1&file=src%2Fmain.js&hideNavigation=1)
 
----
-
 ## Reducing event handler frequency
 
 To avoid performance issues caused by chatty events, we can use **throttle** and **debounce** — two techniques that control how often a function is executed.
@@ -37,8 +35,6 @@ To avoid performance issues caused by chatty events, we can use **throttle** and
 > In modern projects, we typically use implementations from [**Lodash**](https://lodash.com/) — a reliable utility library.
 
 Let's install Lodash and look at practical examples.
-
----
 
 ## Installing Lodash
 
@@ -65,8 +61,6 @@ console.log(result); // 5
 ```
 
 You're now ready to use Lodash utilities in your project.
-
----
 
 ## Throttle
 
@@ -102,8 +96,6 @@ When to use throttle:
 - On `mousemove`: track cursor position
 - On `resize`: recalculate layout
 
----
-
 ## Debounce
 
 `Debounce` delays function execution until a pause in events — it fires **only after N milliseconds of inactivity**.
@@ -137,8 +129,6 @@ When to use debounce:
 - On `input`: avoid triggering API calls on every keystroke
 - On `scroll`: run logic **after** scrolling ends
 - On `resize`: recalculate layout **after** resizing ends
-
----
 
 ## Debounce modes: trailing vs leading
 
@@ -186,8 +176,6 @@ When to use leading mode:
 - Send an API request on the **first button click**
 - Trigger animation immediately when interaction begins
 - Detect the start of scrolling, swiping, or key pressing
-
----
 
 ## ✅ Summary
 
