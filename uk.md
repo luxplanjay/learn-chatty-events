@@ -22,7 +22,8 @@
 - **Лаги** під час взаємодії з інтерфейсом
 - Втрата кадрів (drop frames), особливо при `scroll` і `resize`
 
-<iframe src="https://stackblitz.com/edit/vitejs-vite-aeffy5sv?ctl=1&embed=1&file=src%2Fmain.js&hideNavigation=1"></iframe>
+👉 Відкрити приклад в редакторі кода у StackBlitz
+[![👉 Відкрити приклад в редакторі кода у StackBlitz](/assets/intro-embed-thumb.jpg)](https://stackblitz.com/edit/vitejs-vite-aeffy5sv?ctl=1&embed=1&file=src%2Fmain.js&hideNavigation=1)
 
 ## Як зменшити частоту виклику обробників
 
