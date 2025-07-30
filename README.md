@@ -29,4 +29,5 @@ This guide is designed for:
 
 ## 🌐 Available translations
 
+- [English version (en.md)](./en.md)
 - [Українська версія (uk.md)](./uk.md)
